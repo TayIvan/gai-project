@@ -1,0 +1,90 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.vscode-server/
+
+# Build outputs
+frontend/build/
+frontend/dist/
+frontend/.next/
+backend/build/
+
+# Data & Cache
+data/
+*.sqlite
+*.sqlite3
+*.db
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Docker
+.dockerignore
+
+# Python
+*.pyo
+*.pyd
+.Python
+.pytype/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Node
+.npm
+.eslintcache
+.node-version
+.yarn-integrity
+
+# IDE specific files
+.editorconfig
+.vscode/settings.json
+.vscode/launch.json
+.idea/workspace.xml

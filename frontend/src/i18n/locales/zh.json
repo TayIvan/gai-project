@@ -1,0 +1,16 @@
+{
+  "greeting": {
+    "hello": "你好！我是你的GAI虚拟形象",
+    "how_can_i_help": "今天我能如何帮助你?"
+  },
+  "chat": {
+    "type_message": "在这里输入你的信息...",
+    "send": "发送",
+    "thinking": "思考中..."
+  },
+  "controls": {
+    "microphone": "按下说话",
+    "settings": "设置",
+    "info": "信息"
+  }
+}

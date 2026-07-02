@@ -1,0 +1,1 @@
+"""Ethics & Safety Module"""

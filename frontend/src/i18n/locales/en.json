@@ -1,0 +1,16 @@
+{
+  "greeting": {
+    "hello": "Hello! I'm your GAI Avatar",
+    "how_can_i_help": "How can I help you today?"
+  },
+  "chat": {
+    "type_message": "Type your message here...",
+    "send": "Send",
+    "thinking": "Thinking..."
+  },
+  "controls": {
+    "microphone": "Press to speak",
+    "settings": "Settings",
+    "info": "Information"
+  }
+}

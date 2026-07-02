@@ -1,16 +1,1 @@
-{
-  "greeting": {
-    "hello": "Hallo! Ich bin dein GAI Avatar",
-    "how_can_i_help": "Wie kann ich dir heute helfen?"
-  },
-  "chat": {
-    "type_message": "Gib deine Nachricht hier ein...",
-    "send": "Senden",
-    "thinking": "Nachdenken..."
-  },
-  "controls": {
-    "microphone": "Drücken zum Sprechen",
-    "settings": "Einstellungen",
-    "info": "Information"
-  }
-}
+{"greeting":{"hello":"Hallo! Ich bin dein GAI Avatar","how_can_i_help":"Wie kann ich dir heute helfen?"},"chat":{"type_message":"Gib deine Nachricht hier ein...","send":"Senden","thinking":"Nachdenken..."},"controls":{"microphone":"Drücken zum Sprechen","settings":"Einstellungen","info":"Information"}}

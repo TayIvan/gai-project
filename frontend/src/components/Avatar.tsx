@@ -16,15 +16,12 @@ const Avatar: React.FC = () => {
 
   return (
     <group ref={groupRef}>
-      {/* Head */}
       <mesh position={[0, 0, 0]}>
         <sphereGeometry args={[0.6, 32, 32]} />
         <meshStandardMaterial color="#ffdbac" />
       </mesh>
 
-      {/* Eyes */}
       <group position={[0, 0.15, 0.5]}>
-        {/* Left Eye */}
         <mesh position={[-0.15, 0.1, 0]}>
           <sphereGeometry args={[0.1, 16, 16]} />
           <meshStandardMaterial color="white" />
@@ -34,7 +31,6 @@ const Avatar: React.FC = () => {
           <meshStandardMaterial color="#4a90e2" />
         </mesh>
 
-        {/* Right Eye */}
         <mesh position={[0.15, 0.1, 0]}>
           <sphereGeometry args={[0.1, 16, 16]} />
           <meshStandardMaterial color="white" />
@@ -45,13 +41,11 @@ const Avatar: React.FC = () => {
         </mesh>
       </group>
 
-      {/* Nose */}
       <mesh position={[0, 0, 0.62]}>
         <coneGeometry args={[0.08, 0.15, 8]} />
         <meshStandardMaterial color="#ffcb9a" />
       </mesh>
 
-      {/* Mouth */}
       <mesh position={[0, -0.15, 0.55]}>
         <boxGeometry args={[0.2, 0.1, 0.05]} />
         <meshStandardMaterial color="#e74c3c" />

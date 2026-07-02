@@ -9,15 +9,12 @@ const AvatarScene: React.FC = () => {
       <PerspectiveCamera position={[0, 1.5, 3]} fov={75} />
       <OrbitControls autoRotate autoRotateSpeed={2} />
       
-      {/* Lighting */}
       <ambientLight intensity={0.6} />
       <directionalLight position={[5, 5, 5]} intensity={0.8} />
       <pointLight position={[-5, 3, 2]} intensity={0.5} />
       
-      {/* Avatar */}
       <Avatar />
       
-      {/* Background */}
       <color attach="background" args={['#e0e7ff']} />
     </Canvas>
   );
